@@ -70,6 +70,10 @@ id_rsa_*
 
 # python things
 __pycache__
+<<<<<<< HEAD
 
 # prerequisites for updating ChibiOS
 /util/fmpp*
+=======
+*.org
+>>>>>>> Add *.org files to .gitignore
