@@ -1,0 +1,5 @@
+SRC += muse.c
+DEFAULT_FOLDER = planck/rev6
+AUDIO_ENABLE = no
+MIDI_ENABLE = no
+RGBLIGHT_ENABLE = no
