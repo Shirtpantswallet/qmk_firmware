@@ -1,9 +1,17 @@
 #include "config_common.h"
 
-#define TAPPING_TERM 125
 
-#define TAPPING_TERM_PER_KEY
+#undef TAPPING_TERM
+#define TAPPING_TERM 180
 
 #define PERMISSIVE_HOLD
 
+#define TAPPING_FORCE_HOLD
+
 #define IGNORE_MOD_TAP_INTERRUPT
+
+#undef MOUSEKEY_MAX_SPEED
+#define MOUSEKEY_MAX_SPEED 14
+
+#undef MOUSEKEY_TIME_TO_MAX
+#define MOUSEKEY_TIME_TO_MAX 30
