@@ -1,8 +1,17 @@
+<<<<<<< HEAD
 #pragma once
 
 #include "quantum.h"
 
 #define LAYOUT( \
+=======
+#ifndef KB_H
+#define KB_H
+
+#include "quantum.h"
+
+#define KEYMAP( \
+>>>>>>> 2key2crawl board for ATX Keycrawl 2018
 	K00, K01, K02, K03, K15, \
 	K10, K11, K12, K13, K14, K16  \
 ) { \
@@ -10,3 +19,7 @@
 	{ K10,   K11,   K12,   K13,  K14,   K15,   K16 },  \
 }
 
+<<<<<<< HEAD
+=======
+#endif
+>>>>>>> 2key2crawl board for ATX Keycrawl 2018

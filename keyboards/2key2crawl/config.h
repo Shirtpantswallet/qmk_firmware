@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 #pragma once
+=======
+#ifndef CONFIG_H
+#define CONFIG_H
+>>>>>>> 2key2crawl board for ATX Keycrawl 2018
 
 #include "config_common.h"
 
@@ -19,7 +24,11 @@
 #define MATRIX_COL_PINS { B3, B4, B5, B6, B7, C7, B2 }
 #define UNUSED_PINS
 
+<<<<<<< HEAD
 
+=======
+#define NUMBER_OF_ENCODERS 1
+>>>>>>> 2key2crawl board for ATX Keycrawl 2018
 #define ENCODERS_PAD_A { D0 }
 #define ENCODERS_PAD_B { D1 }
 #define ENCODER_RESOLUTION 1
@@ -28,7 +37,11 @@
 #define DIODE_DIRECTION COL2ROW
 
 /* Set 0 if debouncing isn't needed */
+<<<<<<< HEAD
 #define DEBOUNCE 5
+=======
+#define DEBOUNCING_DELAY 5
+>>>>>>> 2key2crawl board for ATX Keycrawl 2018
 
 /* Mechanical locking support. Use KC_LCAP, KC_LNUM or KC_LSCR instead in keymap */
 #define LOCKING_SUPPORT_ENABLE
@@ -36,9 +49,21 @@
 /* Locking resynchronize hack */
 #define LOCKING_RESYNC_ENABLE
 
+<<<<<<< HEAD
+=======
+/* key combination for command */
+#define IS_COMMAND() ( \
+    false \
+)
+>>>>>>> 2key2crawl board for ATX Keycrawl 2018
 
 #ifdef RGBLIGHT_ENABLE
 #define RGB_DI_PIN C6
 #define RGBLIGHT_ANIMATIONS
 #define RGBLED_NUM 3
 #endif
+<<<<<<< HEAD
+=======
+
+#endif
+>>>>>>> 2key2crawl board for ATX Keycrawl 2018
