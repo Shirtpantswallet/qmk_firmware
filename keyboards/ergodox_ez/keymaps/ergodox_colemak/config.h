@@ -5,6 +5,9 @@
 #undef TAPPING_TERM
 #define TAPPING_TERM 180
 
+#undef DEBOUNCE
+#define DEBOUNCE 40
+
 #define PERMISSIVE_HOLD
 
 #define TAPPING_FORCE_HOLD

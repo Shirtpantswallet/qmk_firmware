@@ -3,7 +3,6 @@
 
 enum custom_keycodes {
   RGB_SLD = SAFE_RANGE,  // can always be here
-  TOGGLE_LAYER_COLOR,
   EPRM,
   DYNAMIC_MACRO_RANGE,
 };
